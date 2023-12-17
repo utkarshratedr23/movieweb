@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import './style.scss'
 import useFetch from '../../hooks/useFetch'
 import DetailsBanner from './detailsBanner/DetailsBanner'
-import Cast from './cast/cast'
+import Cast from './cast/Cast.jsx';
 import VideosSection from './videosSection/VideosSection'
 import Similar from './carousels/Similar'
 import Recommendation from './carousels/Recommendation'
